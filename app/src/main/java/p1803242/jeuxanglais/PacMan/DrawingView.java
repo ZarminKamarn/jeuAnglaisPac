@@ -576,6 +576,24 @@ public class DrawingView extends SurfaceView implements Runnable, SurfaceHolder.
                 getResources(), R.drawable.pacman_right), spriteSize, spriteSize, false);
     }
 
+    // 0 is no line and inaccessible
+    // 16 is no line and accessible
+    // 17 is a line on the left
+    // 18 is a line on the top
+    // 19 is a line on the left and a line on the top
+    // 20 is a line on the right
+    // 21 is a line on the left and a line on the right
+    // 22 is a line on the right and a line on the top
+    // 23 is all lines except on the bottom
+    // 24 is a line on the bottom
+    // 25 is a line on the left and a line on the bottom
+    // 26 is a line on the bottom and a line on the top
+    // 27 is all lines except on the rigth
+    // 28 is a line on the bottom and a line on the right
+    // 29 is all lines except on the top
+    // 30 is all lines except on the left
+    // 31 is all lines
+
     final short leveldata1[][] = new short[][]{
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
             {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
