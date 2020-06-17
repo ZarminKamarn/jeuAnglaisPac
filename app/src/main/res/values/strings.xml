@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Jeux anglais</string>
+    <string name="homepage_text">Select a game</string>
+    <string name="addpage_text">Enter the word to add</string>
+    <string name="updatepage_text">Select the word to update and enter the new word</string>
+    <string name="deletepage_text">Select the word to delete</string>
+    <string name="pac_name">Play</string>
+    <string name="admin_name">Administrator area</string>
+    <string name="how_to_play">How to play?</string>
+    <string name="add">Add</string>
+    <string name="upd">Update</string>
+    <string name="del">Delete</string>
+    <string name="base_hint">Enter a word</string>
+    <string name="verif_text">Reorder these letter to form the correct word:\n</string>
+    <string name="admin_text">What will you do with the database?</string>
+    <string name="val">Validate</string>
+    <string name="help_text">The game is a Pac-Man-like. Your character move on his own, you just have to swipe to give it the direction it must follow. Your goal is to take all letters before finding the word. Be careful, some words are in two words. Avoid the ghost, you only have three lives. Good luck!</string>
+
+</resources>

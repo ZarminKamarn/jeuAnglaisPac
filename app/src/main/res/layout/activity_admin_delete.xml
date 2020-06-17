@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminManager.AdminDeleteActivity">
+
+    <TextView
+        android:id="@+id/textViewHomepage2"
+        android:layout_width="412dp"
+        android:layout_height="108dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:text="@string/deletepage_text"
+        android:textAlignment="center"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/listViewWordDel"
+        android:layout_width="381dp"
+        android:layout_height="335dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewHomepage2">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/btnDel"
+        android:layout_width="132dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="52dp"
+        android:onClick="onDelBtnClick"
+        android:text="@string/del"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/listViewWordDel" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
